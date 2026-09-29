@@ -9,12 +9,16 @@ Proyecto Desarrollo de Web Principal Endpoint Asignada.
 ## Requisitos
 
 * Conexión siempre Activa
-- La aplicación debe contar con acceso a Internet en todo Momento
-- Datos del Equipo
 
+- La aplicación debe contar con acceso a Internet en todo Momento
+
+- Datos del Equipo
+  
+```plain
 ██████╗ ██╗  ██╗███╗   ██╗███╗   ██╗██████╗ ██████╗ 
 ██╔══██╗██║  ██║████╗  ██║████╗  ██║╚════██╗██╔══██╗
 ██████╔╝███████║██╔██╗ ██║██╔██╗ ██║ █████╔╝██████╔╝
 ██╔══██╗╚════██║██║╚██╗██║██║╚██╗██║ ╚═══██╗██╔══██╗
 ██████╔╝     ██║██║ ╚████║██║ ╚████║██████╔╝██║  ██║
 ╚═════╝      ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝
+```
