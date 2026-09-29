@@ -3,55 +3,33 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self';">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mi Página Web</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
-
-    header {
-      background-color: #35424a;
-      color: white;
-      text-align: center;
-      padding: 1em;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 2em;
-    }
-
-    footer {
-      background-color: #35424a;
-      color: white;
-      text-align: center;
-      padding: 1em;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-  <header>
-    <h1>Mi Página Web</h1>
-    <p>Bienvenido a mi página web HTML</p>
-  </header>
+<body class="bg-grad-vert-nba fw-lighter" draggable="false">
 
-  <div class="container">
-    <h2>Contenido Principal</h2>
-    <p>¡Aquí puedes escribir tu contenido principal!</p>
+  <div class="container-fluid text-center min-vh-100 align-content-center g-0">
+    <div class="row g-0 justify-content-center">
+      <div class="col-3 col-md-2 col-lg-4 my-3">
+        <img src="brand.png" class="img-fluid w-85" draggable="false" alt="If Else Hypermedia">
+      </div>
+      <div class="w-100 bg-grad-dashuno shadow-box-inb text-center my-3">
+        <h4 class="text-center lh-1 fw-bold fls-100 fs-3 cat-blanco my-3">
+          Contenido Principal
+        </h4>
+      </div>
+    </div>
+    <div class="row g-0 justify-content-center mb-3 f-18 fw-lighter lh-base">
+      <div class="col-12">
+        <p class="cat-blanco font-monospace">¡Aquí puedes escribir tu contenido principal!</p>
+      </div>
+    </div>    
   </div>
-
-  <footer>
-    <p>Derechos de autor &copy; 2023 | Mi Página Web</p>
-  </footer>
 </body>
 
 </html>
