@@ -12,7 +12,7 @@ Proyecto Desarrollo de Web Principal Endpoint Asignada.
 
 - La aplicación debe contar con acceso a Internet en todo Momento
 
-- Datos del Equipo
+- Datos del Equipo Brand Icon
   
 ```
     ██████╗ ██╗  ██╗███╗   ██╗███╗   ██╗██████╗ ██████╗ 
